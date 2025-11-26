@@ -150,7 +150,6 @@ footer {
   border-top: 1px dashed #eee;
 }
 
-/* Section title */
 .activity-card .participants h5 {
   margin: 0 0 8px;
   font-size: 13px;
@@ -159,7 +158,6 @@ footer {
   font-weight: 600;
 }
 
-/* Bulleted list (custom marker shown for better visuals) */
 .activity-card .participants ul {
   list-style: none;
   padding: 0;
@@ -169,7 +167,6 @@ footer {
   gap: 8px;
 }
 
-/* Each participant row */
 .activity-card .participants li {
   position: relative;
   display: flex;
@@ -183,7 +180,6 @@ footer {
   padding-left: 36px; /* room for the custom marker */
 }
 
-/* Decorative bullet / marker to satisfy "bulleted list" requirement */
 .activity-card .participants li::before {
   content: "";
   width: 8px;
@@ -197,13 +193,11 @@ footer {
   box-shadow: 0 1px 0 rgba(0,0,0,0.06);
 }
 
-/* subtle hover */
 .activity-card .participants li:hover {
   background-color: #f4f6ff;
   transform: translateY(-1px);
 }
 
-/* Avatar — initials or image */
 .activity-card .participants .avatar {
   width: 34px;
   height: 34px;
@@ -220,7 +214,6 @@ footer {
   overflow: hidden;
 }
 
-/* If using an <img> inside avatar */
 .activity-card .participants .avatar img {
   width: 100%;
   height: 100%;
@@ -228,7 +221,6 @@ footer {
   display: block;
 }
 
-/* Name and optional role/status */
 .activity-card .participants .name {
   font-size: 14px;
   color: #222;
@@ -242,14 +234,12 @@ footer {
   font-weight: 500;
 }
 
-/* Empty-state reminder when no participants yet */
 .activity-card .participants .empty {
   color: #777;
   font-style: italic;
   padding: 6px 0;
 }
 
-/* Slightly tighter on small screens */
 @media (max-width: 480px) {
   .activity-card .participants li {
     padding: 8px;
